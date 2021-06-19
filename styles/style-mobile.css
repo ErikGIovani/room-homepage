@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?familyfamily=?Spartan:wght@500;800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Spartan', sans-serif;
+}
+
+.hidde {
+    display: none;
+}
+
+.gray {
+    filter: invert(50%)
+}
+
+.logo {
+    position: absolute;
+    left: 38%;
+    margin-top: 5vw;
+    width: 30vw;
+}
+
+.nav-mobile img {
+    float: left;
+    position: absolute;
+    z-index: 2;
+    margin: 5vw;
+    width: 6vw;
+}
+
+header .navbar-mobile {
+    background: #ffffff;
+    position: absolute;
+    width: 100%;
+    padding-left: 17vw;
+    padding-top: 4.5vw;
+    padding-bottom: 5vw;
+}
+
+header .navbar-mobile a {
+    font-size: 5vw;
+    color: #000000;
+    text-decoration: none;
+    padding: 5vw 2vw;
+}
+
+section {
+    width: 100%;
+    height: 100%;
+}
+
+section img {
+    width: 100vw;
+    height: 120vw;
+    object-fit: fill;
+}
+
+section div h2 {
+    font-size: 8vw;
+    margin: 10vw 8vw 0 8vw;
+}
+
+section div p {
+    margin: 7vw 8vw;
+    font-size: 4vw;
+    color: #9f9f9f;
+}
+
+section div p span {
+    visibility: hidden;
+}
+
+section div a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #000000;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.5vw;
+    margin-left: 8vw;
+}
+
+section div a img {
+    width: 12vw;
+    height: 5vw;
+    margin-left: 5vw;
+}
+
+.cantidad {
+    visibility: hidden;
+}
+
+section div button {
+    bottom: 113.7vw;
+    background: #000000;
+    border: none;
+    padding: 2vw 3vw;
+    position: relative;
+    float: left;
+    left: 72.1vw;
+}
+
+section div button img {
+    width: 8vw;
+    height: 8vw;
+}
+
+footer{
+    width: 100%;
+}
+
+footer img {
+    width: 100%;
+}
+
+footer div {
+    padding: 8vw;
+}
+
+footer div h2 {
+    text-transform: uppercase;
+    letter-spacing: 1.5vw;
+    font-size: 4vw;
+    margin-bottom: 3vw;
+}
+
+footer div p {
+    font-size: 4vw;
+    color: #9f9f9f;
+}

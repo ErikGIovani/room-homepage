@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style-mobile.css" media="(min-width: 1px) and (max-width: 700px)">
+    <link rel="stylesheet" href="styles/style.css" media="(min-width: 701px) and (max-width: 10000px)">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <title>Frontend Mentor | Room homepage</title>
+</head>
+<body>
+    <header>
+        <img class="logo" src="images/logo.svg" alt="">
+
+        <a onclick="menu()" class="nav-mobile" href="#"><img id="nav-menu" class="nav-mobile-icon" src="images/icon-hamburger.svg" alt=""></a>
+
+        <nav id="menu" class="navbar-mobile hidde">
+            <a href="#">Home</a>
+            <a href="#">Shop</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <section>
+        <img class="imagen" src="" alt="">
+        <div>
+            <h2 class="title"></h2>
+            <p class="subtext"></p>
+            <a class="link" href="">Shop Now <img src="images/icon-arrow.svg" alt=""></a>
+            
+            <p class="cantidad"></p>
+            <button onclick="reducir()"><img src="images/icon-angle-left.svg" alt=""></button>
+            <button onclick="aumentar()"><img src="images/icon-angle-right.svg" alt=""></button>
+        </div>
+    </section>
+
+    <footer>
+        <img src="images/image-about-dark.jpg" alt="">
+        <div>
+            <h2>About our furniture</h2>
+            <p>Our multifunctional collection blends design and function to suit your individual taste.
+                Make each room unique, or pick a cohesive theme that best express your interests and what
+                inspires you. Find the furniture pieces you need, from traditional to contemporary styles
+                or anything in between. Product specialists are available to help you create your dream space.</p>
+        </div>
+        <img src="images/image-about-light.jpg" alt="">
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

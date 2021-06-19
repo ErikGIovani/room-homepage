@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?familyfamily=?Spartan:wght@500;800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Spartan', sans-serif;
+}
+
+header {
+    position: absolute;
+    display: flex;
+    margin: 2vw 0 0 0;
+    align-items: center;
+}
+
+header img {
+    width: 8vw;
+    margin: 0 2vw;
+}
+
+.nav-mobile {
+    display: none;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 2vw;
+    margin: 0 2vw;
+    text-transform: lowercase;
+    font-weight: 600;
+}
+
+header nav a:hover {
+    padding-bottom: 0.5vw;
+    border-bottom: 0.3vw solid #ffffff;
+}
+
+section {
+    display: flex;
+}
+
+section img {
+    width: 60%;
+}
+
+section div {
+    width: 40%;
+    padding: 9% 0 0 0;
+    position: relative;
+    box-sizing: content-box;
+}
+
+section div h2 {
+    text-align: left;
+    font-size: 3vw;
+    font-weight: bolder;
+    margin: 0 5vw 0 5vw;
+}
+
+section div p {
+    font-size: 1vw;
+    margin: 2vw 5vw 2vw 5vw;
+    color: #9f9f9f;
+}
+
+section div p span {
+    visibility: hidden;
+}
+
+section div a {
+    display: flex;
+    margin: 0 5vw 0 5vw;
+    text-decoration: none;
+    color: #000000;
+    letter-spacing: 1vw;
+    font-size: 1vw;
+    font-weight: bolder;
+    text-transform: uppercase;
+    align-items: center;
+}
+
+section div a:hover {
+    filter: invert(80%);
+}
+
+section div a img {
+    width: 4vw;
+    margin-left: 1vw;
+}
+
+.cantidad {
+    visibility: hidden;
+}
+
+section div button {
+    border: none;
+    margin-top: 2vw;
+    background: #000000;
+    padding: 2vw;
+    float: left;
+}
+
+section div button:hover {
+    background: #444444;
+}
+
+section div button img {
+    width: 1vw;
+}
+
+footer {
+    display: flex;
+}
+
+footer img {
+    width: 30%;
+}
+
+footer div {
+    width: 40%;
+    padding: 4vw 3vw 0 3vw;
+}
+
+footer div h2 {
+    font-size: 1.5vw;
+}
+
+footer div p {
+    font-size: 1vw;
+    color: #9f9f9f;
+    margin-top: 1vw;
+}
